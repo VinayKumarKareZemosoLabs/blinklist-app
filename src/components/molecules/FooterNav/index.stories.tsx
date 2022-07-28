@@ -1,5 +1,5 @@
 import { ComponentStory } from "@storybook/react";
-import Editorial from "./FooterNav";
+import Editorial from ".";
 
 export default{
     title:'Molecules/FooterNav',
