@@ -30,17 +30,7 @@
     flex-grow: 0;
   }
   
-  Icons {
-    /* atoms/icons */
-    width: 24px;
-    height: 24px;
-  
-
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
+ 
   
   input {
 
@@ -50,9 +40,7 @@
     width: 180px;
     height: 24px;
   
-    /* beta/body 2 */
-  
-    font-family: "Cera Pro";
+    font-family: Cera Pro;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
