@@ -1,0 +1,90 @@
+.search {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+  
+    position: relative;
+    width: 598px;
+    height: 28px;
+  }
+  
+  .one {
+    
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 212px;
+    height: 24px;
+  
+   
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  Icons {
+    /* atoms/icons */
+    width: 24px;
+    height: 24px;
+  
+
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  input {
+
+  
+    border: 0px;
+  
+    width: 180px;
+    height: 24px;
+  
+    /* beta/body 2 */
+  
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+  
+    color: #747575;
+
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  input:focus{
+      outline: none;
+  }
+  
+  .two {
+  
+  
+    width: 598px;
+    height: 0px;
+  
+  
+    border: 1px solid #bac9cf;
+  
+    background-color: #BAC9CF;
+  
+
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }

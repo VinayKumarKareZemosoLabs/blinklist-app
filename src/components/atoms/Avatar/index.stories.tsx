@@ -1,6 +1,6 @@
 import {ComponentStory} from "@storybook/react";
 import React from "react";
-import Avatars from "./avatar";
+import Avatars from ".";
 
 export default {
   title: "Atoms/Avatar",
