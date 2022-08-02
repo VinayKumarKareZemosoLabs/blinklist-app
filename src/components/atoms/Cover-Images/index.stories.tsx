@@ -1,5 +1,5 @@
 import { ComponentStory } from "@storybook/react";
-import CoverImage from "./coverimage";
+import CoverImage from ".";
 
 import ci2 from "../../../../public/images/cover_image/2.svg";
 import ci3 from "../../../../public/images/cover_image/3.svg";
