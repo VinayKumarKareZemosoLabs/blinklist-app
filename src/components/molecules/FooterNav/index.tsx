@@ -46,12 +46,21 @@ function FooterNav(props:footerNavPropsType) {
   );
   
   return (
+    <List
+      style={{
+        height: "auto",
+        width: "214px",
+        display: "flex",
+        padding: "0px",
+        gap: "16px",
+        flexDirection: "column",
+        alignItems: "flex-start",
+      }}
 
-    <List classes={classes.box1}>
+    >
       <ListItem style={{ padding: "0px" }}>
         <ListItemText classes={{primary:classes.heading}} primary={props.listHead}/>
       </ListItem>
-      {/* listing */}
       {listing}
     </List>
   );
